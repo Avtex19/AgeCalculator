@@ -53,4 +53,6 @@ Button(window, text="Exit", font=('arial', 20, 'bold'), bg="DodgerBlue2", fg="bl
 output = Text(window, width=35, height=2, wrap=WORD, bg="white", fg="black", font=('arial', 16, 'bold'))
 output.place(x=300, y=520)
 
-mainloop()
+if __name__ == "__main__":
+    mainloop()
+
